@@ -72,8 +72,121 @@
 //     "Programación"
 // ]
 
-let numeros = [];
+// let numeros = [];
 
-for(let i = 1; i<=100; i++){
-    numeros.push(i)
-}
+// for(let i = 1; i<=100; i++){
+//     numeros.push(i)
+// }
+
+
+
+// EJERCICIO 9 
+
+// for(let i = 0; i <= 100;i++){
+//         if ((i%2 == 0) && (i%3 == 0){
+//             console.log(i)
+//         }
+// }
+
+// EJERCICIO 10
+
+// let nVentas = parseInt(prompt("Introduce el numero de datos a introducir:  "));
+
+// let venta;
+
+// suma = 0;
+
+// for(let i = 0;i<nVentas;i++){
+//     venta = parseInt(prompt("Introduce el valor de la venta"))
+//     suma = suma+venta
+// }
+
+// console.log(suma)
+
+
+// EJERCICIO 11
+
+// dia = prompt("Introduce un dia de la semana: ").toLocaleLowerCase
+
+// switch(dia) {
+//     case "lunes":
+//     case "martes":
+//     case "miercoles":
+//     case "jueves":
+//     case "viernes":
+//         console.log("Es un dia laboral")
+//     case "sabado":
+//     case "domingo":
+//         console.log("Es fin de semana")
+// }
+
+
+// EJERCICIO 12
+
+// let password = "1234";
+// let passwordUser = prompt("Introduce tu contraseña: ");
+// let intentos = 3;
+
+
+
+// while ((passwordUser != password) && (intentos > 0) ){
+//     passwordUser = prompt("Introduce tu contraseña: ");
+//     if (passwordUser==password){
+//         break
+//     }
+//     intentos-=1
+
+// }
+
+// EJERCICIO 13
+
+// function Sumar(num1,num2){
+//     return num1+num2;
+// }
+// function Restar(num1,num2){
+//     return num1-num2;
+// }
+
+// function Multiplicar(num1,num2){
+//     return num1*num2;
+// }
+
+// function Dividir(num1,num2){
+//     return num1/num2;
+// }
+
+// function Elevar(num1,num2){
+//     return num1**num2;
+// }
+
+// function Resto(num1,num2){
+//     return num1%num2
+// }
+
+
+// let n1 = parseInt(prompt("Introduce un numero: "));
+// let n2 = parseInt(prompt("Introduce un numero: "));
+// let option = prompt("Introduce el signo aritmetico de la operación (Suma +, Resta -,etc):")
+
+// switch(option){
+//     case "+":
+//         console.log(Sumar(n1,n2))
+    
+//     case "-":
+//         console.log(Restar(n1,n2))
+
+
+//     case "*":
+//         console.log(Multiplicar(n1,n2))
+
+        
+//     case "/":
+//         console.log(Dividir(n1,n2))
+        
+//     case "^":
+//         console.log(Elevar(n1,n2))
+        
+//     case "%":
+//         console.log(Resto(n1,n2))
+//     }
+
